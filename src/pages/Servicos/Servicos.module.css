@@ -1,0 +1,13 @@
+.lista {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.servicoCard {
+    padding: 20px;
+    border-left: 5px solid #fff9a8;
+    background: #eee;
+    border-radius: 0 8px 8px 0;
+}
