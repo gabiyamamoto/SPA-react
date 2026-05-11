@@ -1,0 +1,41 @@
+.contatoContainer {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form input, .form textarea {
+  padding: 12px;
+  border: 1px solid #ce040494;
+  box-shadow: 1px 1px 15px #d10000b0;
+  border-radius: 4px;
+  font-size: 1rem;
+  background-color: #18191b;
+}
+
+.form textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+.form button {
+  padding: 12px;
+  background-color: #282c34;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.2s ease-in-out;
+}
+
+.form button:hover {
+  background-color: #575757;
+  transform: scale(1.05);
+}
