@@ -1,8 +1,8 @@
 .card {
-  border: 1px solid #ddd;
-  background-color: #fff98a;
+  border: 1px solid #ce040494;
+  background-color: #1b1b1b;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+  box-shadow: 1px 1px 15px #ff0000b4;
   text-align: center;
 }
