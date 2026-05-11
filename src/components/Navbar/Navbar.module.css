@@ -3,14 +3,14 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #fff98a;
+  background-color: #9b000094;
   color: white;
 }
 
 .logo {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #fff98a;
+  color: #ffffffd8;
 }
 
 .links {
@@ -26,5 +26,5 @@
 }
 
 .links a:hover {
-  color: #fff98a;
+  color: #fff3f394;
 }
