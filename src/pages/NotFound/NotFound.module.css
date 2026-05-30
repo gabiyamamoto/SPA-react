@@ -1,0 +1,46 @@
+.container {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.codigo {
+    font-size: 8rem;
+    font-weight: 700;
+    color: #9b0000;
+    line-height: 1;
+    margin: 0 0 20px 0;
+}
+
+.titulo {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.texto {
+    color: #d0d0d0;
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+}
+
+.botao {
+    background: #9b0000;
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+
+    margin-top: 20px;
+
+    transition: 0.3s;
+}
+.botao:hover {
+    background: #7a0000;
+}
