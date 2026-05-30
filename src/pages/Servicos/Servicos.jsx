@@ -10,8 +10,9 @@ function Servicos() {
     ];
 
     return (
-        <section>
+        <section className={styles.container}>
             <h1>Nossos Serviços</h1>
+
             <div className={styles.lista}>
                 {listaServicos.map((s) => (
                     <Card
